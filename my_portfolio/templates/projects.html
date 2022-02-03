@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+      <div class="carditems">
+        <div class="status">
+          <h1>Projects</h1>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="/static/cgiti.png" class="cgiti" alt="" />
+            <div class="card-info">
+              <a href="https://cgititest.com/">
+                <h2><u>Exam website (cgititest.com)</u></h2>
+              </a>
+              <p>
+                <strong>Stack LAMP</strong> <br>
+                Made the website for Industrial Training Institute.<br>
+                It consists of features such as Question book, Send Mail, Timing Based
+                Exam, Period wise Exam, Modal Question's from Other Training Officer's.<br>
+                It has Automatic Exam System
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/static/selenium.png" alt="" />
+            <div class="card-info">
+                <h2><u>Flipkart Autobuy</u></h2>
+              <p>
+                <strong>Python & Selenium</strong> <br>
+                Made Autobuy python script using Selenium to buy product from Flipkart
+                Flash Sales. <br>
+                Used Google Cloud Vision API with Python to solve captcha in cash on
+                delivery page. <br>
+                Used python-telegram-bot library to send notification to the user
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/static/arduino.png" alt="" />
+            <div class="card-info">
+              <a href="https://github.com/choubari/KALAH-GAME">
+                <h2><u>Home Automation System</u></h2>
+              </a>
+              <p>
+                <strong>I.O.T. (ESP8266, ESP32, Arduino UNO) & Lamp Stack</strong><br>
+                User can turn on/off all the appliances in his house through website. <br>
+                Used google firebase as database.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endblock %}
